@@ -1,0 +1,50 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.Columna{
+background: #f3f0f0;
+color: black;
+padding: 10px;
+width: 25%;
+margin: 2px auto;
+border: 1px solid black;
+border-radius: 7px;
+box-shadow: 5px 8px #9A86A4;
+width: 20%;
+box-sizing: border-box;
+}
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.Precio{
+font-size: 50px;
+color: rgb(124, 205, 207);
+}
+.btn-precio{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btn-precio:hover{
+    background: rgb(247, 100, 84);
+}
+@media (max-width: 1070px){
+    .Columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    .Columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
