@@ -1,0 +1,86 @@
+#banner{
+background-color: cadetblue;
+width: 50%;
+height: 300px;
+}
+
+#banner .contenido {
+    background-color: aquamarine;
+    text-align: right;
+}
+
+nav{
+        text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*nav li{
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px;
+} */
+
+.li1{
+    background-color: blueviolet;
+    display: inline-block;
+    font-size: 9px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.li2{
+    background-color: blue;
+    display: inline-block;
+    font-size: 15px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.li3{
+    background-color: burlywood;
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    float: right;
+    text-decoration: none;
+}
+
+#home{
+    background-color: limegreen;
+    padding: 50px 100px;
+    border: 5px solid black;
+    margin: 10px 50px 100px 250px;
+}
+
+#dog{
+    background-color: chocolate;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    border: 10px dotted burlywood;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+#cat{
+background-image: url(img/imagen\ de\ perrito.jpg);
+}
+
+/*Inspector de elementos Ctrl+Mayus+i*/
+#fish{
+    background: violet;
+    border: 5px solid;
+    color: black;
+    display: inline;
+}

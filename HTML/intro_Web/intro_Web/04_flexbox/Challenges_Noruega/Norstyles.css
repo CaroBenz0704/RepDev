@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.padre{
+    height: 450px;
+    width: 650px;
+    background: rgb(26, 26, 114);
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.hijo{
+    height: 190px;
+    width: 210px;
+    background: white;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.nieto{
+    height: 150px;
+    width: 170px;
+    background: #ec0e0e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: end;
+}
+.nieto1{
+    height: 150px;
+    width: 170px;
+    background: #ec0e0e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+}
